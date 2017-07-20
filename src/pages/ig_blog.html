@@ -1,0 +1,76 @@
+---
+subject: My Basic Email Template Subject
+---
+
+<container class="header">
+  <spacer size="30"></spacer>
+  <center>
+      <a href="http://iconsgarden.com/" target="_blank"><img src="assets/img/ig_blog/ig_logo.png" width="146" height="50" style="margin: auto;text-align: center; max-width: 146px;max-height: 50px;"></a>
+  </center>
+  <spacer size="30"></spacer>
+</container>
+
+<container style="border-top: 3px solid #4caf50;">
+  <spacer size="25"></spacer>
+  <row style="border-bottom: 1px solid #f5f5f5;">
+    <columns>   
+      <h3 mc:edit="greeting" style="text-transform: uppercase; text-align: center; margin-bottom: 34px;">Juno, here's what's hot this month...</h3>
+      <center>
+        <img mc:edit="banner_image" src="assets/img/ig_blog/header_img.png" width="540" height="328" style="margin: auto;text-align: center; max-width: 100%;">
+      </center>
+      <spacer size="22"></spacer>
+      <h1 mc:edit="banner_title" style="color: #4caf50; line-height: 1.416;font-weight: bold; margin-bottom: 14px;">Celebrate The Really First Icons That Have Been Uploaded To The Garden</h1>
+      <p mc:edit="banner_desc" style="line-height: 1.571;">Before launching we have sent the invitations to our favorite designers around the world. <a href="#" target="_blank">Fortunately</a>, we have received a lot of quality icon designs for our garden two weeks before publishing the site. </p>
+      <spacer size="17"></spacer>
+    </columns>
+  </row>
+  <row>
+    <columns>  
+        <spacer size="45"></spacer>
+        <h3 mc:edit="title_content" style="text-transform: uppercase; text-align: center; margin-bottom: 21px;">you might also like</h3>
+    </columns>
+  </row>
+  <row mc:repeatable="content" mc:variant="Content">
+    <columns small="12" large="6">
+      <img mc:edit="image_left" src="assets/img/ig_blog/small_img_1.png" width="255" height="155" style="max-width: 255px;">
+      <spacer size="16"></spacer>
+      <h2 mc:edit="content_left" style="line-height: 1.625;font-weight: bold;margin-bottom: 6px;">How To Design a Successful App Icon in 11 Steps</h2>
+    </columns>
+    <columns small="12" large="6">
+      <img mc:edit="image_right" src="assets/img/ig_blog/small_img_2.png" width="255" height="155" style="max-width: 255px;">
+      <spacer size="16"></spacer>
+      <h2 mc:edit="content_right" style="line-height: 1.625;font-weight: bold;margin-bottom: 6px;">Iconsgarden's story</h2>
+    </columns>
+  </row>
+  <spacer size="20"></spacer>
+  <center><table class="button rounded iconsgarden"><tr><td><table><tr><td mc:edit="explore"><a href="#" target="_blank">Explore all</a></td></tr></table></td></tr></table></center>
+  <spacer size="15"></spacer>
+</container>
+<spacer size="27"></spacer>
+<container class="footer">
+  <row>
+    <columns small="12" large="6">
+      <h4 style="margin-bottom: 8px; color: #a1a1a1;">Copyright &copy *|CURRENT_YEAR|* Iconsgarden</h4>
+      <p>
+        <a href="https://www.facebook.com/junoteamdz" target="_blank" style="display: inline-block; margin-right: 14px; color: #a1a1a1;">
+          <img src="assets/img/ig_blog/facebook.png" width="13" height="13" style="max-width: 13px; max-height: 13px;">
+        </a>
+        <a href="https://twitter.com/junoteamvn" target="_blank" style="display: inline-block; margin-right: 14px; color: #a1a1a1;">
+          <img src="assets/img/ig_blog/twitter.png" width="13" height="13" style="max-width: 13px; max-height: 13px;">
+        </a>
+        <a href="https://dribbble.com/junoteam" target="_blank" style="display: inline-block; margin-right: 14px; color: #a1a1a1;">
+          <img src="assets/img/ig_blog/dribbble.png" width="13" height="13" style="max-width: 13px; max-height: 13px;">
+        </a>
+        <a href="https://www.pinterest.com/junoteam/" target="_blank" style="display: inline-block; margin-right: 14px; color: #a1a1a1;">
+          <img src="assets/img/ig_blog/pinterest.png" width="13" height="13" style="max-width: 13px; max-height: 13px;">
+        </a>
+      </p>
+    </columns>
+    <columns small="12" large="6">
+      <h4 class="text-right" style="margin-bottom: 7px; color: #a1a1a1; line-height: 1.5;">You are receiving this email because you opted into <a style="color:#4caf50;text-decoration: none; " href="http://iconsgarden.com/" target="_blank">Iconsgarden</a> subscribers list</h4>
+      <p class="text-right">
+        <a href="*|UNSUB|*" target="_blank" style="font-size:12px;text-align: right; color: #5d6e7c; font-weight: bold; text-decoration: underline;">Unsubscribe</a>
+      </p>
+    </columns>
+  </row>
+</container>

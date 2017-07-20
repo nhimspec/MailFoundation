@@ -1,0 +1,42 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  	background: $ig-background !important;
+}
+
+.container.header {
+  	background: $ig-background;
+}
+
+.container.footer {
+  	background: $ig-background;
+}
+
+.body-drip {
+  	border-top: 8px solid #663399;
+}
+
+
+.wrapper.secondary {
+  	background: #f3f3f3;
+}
+
+table.button.iconsgarden table td a {
+  	background-color: #4caf50;
+  	font-weight: 400;
+}
+table.button.rounded table td a {
+  	border-radius: $global-rounded;
+}
+@media only screen and (max-width: #{$global-breakpoint}){
+	table img{
+		margin:auto !important;
+	}
+	h1,h2,h3,h4,h5,table p{
+		text-align:center !important;
+	}
+}
